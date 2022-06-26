@@ -1,15 +1,13 @@
 <!DOCTYPE html>
-
-//changement fond de carte OSM topo
 <html>
 <head>
-<title>A Leaflet map!</title> <meta charset="UTF-8">
+<title>changement fond de carte OSM topo</title> <meta charset="UTF-8">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" /> <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
 <style>
 #map {width: 90%; height:600px; margin: auto; } </style>
 </head> <body>
 <div id="map"></div> <script>
-// Initialiser la carte
+
 var map = L.map('map', { center: [50.631696, 3.075220],
 zoom: 16}); L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png').addTo(map);
 </script>
